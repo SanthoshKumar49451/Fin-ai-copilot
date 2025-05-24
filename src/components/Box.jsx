@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-const Ai = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const Box=()=>{
+
+ const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
@@ -77,5 +78,5 @@ const Ai = () => {
       </div>
     </>
   );
-};
-export default Ai
+}
+export default Box
