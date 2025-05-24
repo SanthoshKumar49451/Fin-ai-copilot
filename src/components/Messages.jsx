@@ -1,4 +1,4 @@
-import AI from "./Ai";
+import Ai from "./Ai";
 
 const Messages = ({ userId, onClose, messages }) => {
   const message = messages?.find((msg) => msg.id === userId);
@@ -93,7 +93,7 @@ const Messages = ({ userId, onClose, messages }) => {
           className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm bg-gray-50"
         />
       </div>
-      <AI/>
+      <Ai/>
 
     
     </div>

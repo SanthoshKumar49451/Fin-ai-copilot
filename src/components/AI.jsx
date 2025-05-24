@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const AI = () => {
+const Ai = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -78,4 +78,4 @@ const AI = () => {
     </>
   );
 };
-export default AI
+export default Ai
