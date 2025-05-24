@@ -1,4 +1,4 @@
-import Ai from "./Ai";
+import Ai from '../components/Ai'
 
 const Messages = ({ userId, onClose, messages }) => {
   const message = messages?.find((msg) => msg.id === userId);
